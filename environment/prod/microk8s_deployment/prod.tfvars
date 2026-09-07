@@ -13,6 +13,6 @@ k8s_cluster_nodes = {
     proxmox_node = "pmx-gr-01"
     ssh_pub_file = "~/.ssh/microk8s_prod_key.pub"
     template_id = 350 # march-23-2026 image
-    vm_datastore = "pny_ssd"
+    vm_datastore = "zfs_hdd"
     vlan_id_primary = 400
  
